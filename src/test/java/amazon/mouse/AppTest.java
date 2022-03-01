@@ -18,8 +18,8 @@ public class AppTest
     public void Table()
     {
      		
-    			 System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");  
-    	           WebDriver driver=new ChromeDriver();  
+    			    System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");  
+    	            WebDriver driver=new ChromeDriver();  
     			    driver.get("https://www.w3schools.com/html/html_tables.asp");
     			    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
                     JavascriptExecutor js=(JavascriptExecutor)driver;
